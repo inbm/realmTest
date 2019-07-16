@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <!--custombase-->
+
+    <color name="colorPrimaryGreen">#239F40</color>
+    <color name="colorPrimaryDarkGreen">#1c8334</color>
+    <color name="colorAccentGreen">#239F40</color>
+
+
+    <color name="colorSearchBar">#e0e1e2</color>
+    <color name="colorChattingBlue">#d9e4e6</color>
+
+
+    <!--base-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="black_20">#111111</color>
+
+    <!-- dialog -->
+    <color name="dialog_line">#cccccc</color>
+    <color name="dialog_cancel">#454545</color>
+
+    <!-- transparent -->
+    <color name="transparent100">#00000000</color>
+    <color name="transparent95">#09000000</color>
+    <color name="transparent90">#1A000000</color>
+    <color name="transparent80">#80303030</color>
+    <color name="transparent70">#b3303030</color>
+    <color name="transparent60">#D3303030</color>
+    <color name="transparent41">#68000000</color>
+    <color name="transparent22">#38000000</color>
+    <color name="transparent15">#26000000</color>
+
+
+    <color name="colorFAB1">#17bfd8</color>
+    <color name="colorFAB2">#e4a851</color>
+    <color name="colorFAB3">#9785ee</color>
+    <color name="colorFABspec">#abaeb5</color>
+    <color name="aquamarine">#00cba6</color>
+    <color name="red_pink">#fd226f</color>
+    <color name="lipstick">#d81764</color>
+    <color name="pale_blue">#e2e5e9</color>
+    <color name="pale_sky_blue">#d8e1e5</color>
+    <color name="pale_blue36">#5ce2e5e9</color>
+    <color name="pale_grey">#eff0f1</color>
+    <color name="pale_grey36">#5ceff0f1</color>
+    <color name="grey">#F5B9B9B9</color>
+    <color name="light_tan">#fde9b8</color>
+    <color name="blue_grey">#7f8aa3</color>
+    <color name="light_blue_grey">#d9ebed</color>
+    <color name="tan">#cfa36f</color>
+    <color name="sandy">#eeb469</color>
+    <color name="perrywinkle">#8aa8e2</color>
+    <color name="lightblue">#64bfee</color>
+    <color name="cool_grey">#abaeb5</color>
+    <color name="cool_grey_two">#a8b3b9</color>
+    <color name="dodger_blue">#4aa1fa</color>
+    <color name="pale_teal">#91d1c5</color>
+    <color name="pale_grey_two">#f4f6f7</color>
+    <color name="colorCyan">#00b8a9</color>
+    <color name="ice_blue">#5ceef0f1</color>s
+    <color name="mango">#f59b25</color>
+    <color name="green_blue">#00b594</color>
+    <color name="tab_default">#54ba67</color>
+    <color name="perrywinkle_three">#b094e7</color>
+    <color name="aqua_marine">#47cca8</color>
+    <color name="cool_grey_three">#95a0a7</color>
+    <color name="pale_teal_two">#84C7bb</color>
+    <color name="light_blue_grey_two">#cad2d6</color>
+    <color name="defaultBackground">#f4f6f7</color>
+    <color name="youtube">#e90012</color>
+
+
+    <color name="line_color">#ffd3d3d3</color>
+    <color name="black">#000000</color>
+    <color name="light_gray">#ffd8d8d8</color>
+    <color name="light_gray3">#ffd3d3d3</color>
+    <color name="light_gray2">#fff8f8f8</color>
+    <color name="light_gray22">#f0f0f0</color>
+    <color name="live_progress">#ccffffff</color>
+    <color name="greyblue">#74b4a8</color>
+    <color name="transparent_80_66">#a8303030</color>
+
+    <!--//editText4live-->
+    <color name="colorDarkGray">#87787878</color>
+
+    <color name="white_70">#99000000</color>
+    <color name="white60">#99000000</color>
+    <color name="whitefe">#FEFEFE</color>
+
+    <!--dim-->
+    <color name="dim60">#99000000</color>
+    <color name="dim80White">#ccffffff</color>
+    <color name="dim90White">#e6ffffff</color>
+    <color name="dim60White">#ccffffff</color>
+    <color name="dim50White">#80ffffff</color>
+    <color name="dim15White">#26ffffff</color>
+
+    <color name="progressBarColor">#239F40</color>
+    <color name="backgroundProgressBarColor">#85239f40</color>
+
+
+
+
+
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_fab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:id="@+id/fl_dim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent70"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_fab4_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_fab3_container"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingEnd="15dp">
+
+        <TextView
+            android:id="@+id/tv_4fab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6.5dp"
+            android:layout_marginEnd="9.5dp"
+            android:textColor="@color/white"
+            android:textSize="14.3sp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|end"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="6.5dp"
+            android:scaleType="center"
+            android:visibility="invisible"
+            app:elevation="8dp"
+            app:fabCustomSize="@dimen/fab_size_custom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fab3_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_fab2_container"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingEnd="15dp">
+
+        <TextView
+            android:id="@+id/tv_4fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6.5dp"
+            android:layout_marginEnd="9.5dp"
+            android:textColor="@color/white"
+            android:textSize="14.3sp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|end"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="6.5dp"
+            android:scaleType="center"
+            android:visibility="invisible"
+            app:elevation="8dp"
+            app:fabCustomSize="@dimen/fab_size_custom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fab2_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_fab1_container"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingEnd="15dp">
+
+        <TextView
+            android:id="@+id/tv_4fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6.5dp"
+            android:layout_marginEnd="9.5dp"
+            android:textColor="@color/white"
+
+            android:textSize="14.3sp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|end"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="6.5dp"
+            android:scaleType="center"
+            android:visibility="invisible"
+            app:elevation="8dp"
+            app:fabCustomSize="@dimen/fab_size_custom" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_fab1_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fab"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingEnd="15dp">
+
+        <TextView
+            android:id="@+id/tv_4fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="6.5dp"
+            android:layout_marginEnd="9.5dp"
+
+            android:textColor="@color/white"
+            android:textSize="14.3sp"
+            android:visibility="invisible" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|end"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="6.5dp"
+            android:scaleType="center"
+            android:visibility="invisible"
+            app:elevation="8dp"
+            app:fabCustomSize="@dimen/fab_size_custom" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="center"
+        app:backgroundTint="@color/colorPrimaryDarkGreen"
+        app:elevation="8dp"
+        app:fabCustomSize="@dimen/fab_size_custom_main"
+        app:srcCompat="@drawable/ic_add" />
+
+
+</RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<android.support.constraint.ConstraintLayout--><!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+    <!--<android.support.design.widget.FloatingActionButton--><!--android:id="@+id/fab"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="24dp"--><!--android:layout_marginBottom="8dp"--><!--app:layout_constraintBottom_toTopOf="@+id/fab3"--><!--app:layout_constraintEnd_toEndOf="parent" />--><!--<android.support.design.widget.FloatingActionButton--><!--android:id="@+id/fab1"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginEnd="16dp"--><!--android:layout_marginBottom="16dp"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton--><!--android:id="@+id/fab2"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginBottom="8dp"--><!--app:layout_constraintBottom_toTopOf="@+id/fab1"--><!--app:layout_constraintEnd_toEndOf="@+id/fab3"--><!--app:layout_constraintStart_toStartOf="@+id/fab3" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton--><!--android:id="@+id/fab3"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginBottom="8dp"--><!--app:layout_constraintBottom_toTopOf="@+id/fab2"--><!--app:layout_constraintEnd_toEndOf="@+id/fab"--><!--app:layout_constraintStart_toStartOf="@+id/fab" />--><!--<com.inbm.inbmstarter.ViewEX.TextViewEX--><!--android:id="@+id/text"--><!--android:text="text"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--/>-->
+
+    <!--<com.inbm.inbmstarter.ViewEX.TextViewEX--><!--android:id="@+id/text1"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="8dp"--><!--android:layout_marginEnd="8dp"--><!--android:text="text1"--><!--app:layout_constraintEnd_toStartOf="@+id/fab"--><!--app:layout_constraintTop_toTopOf="@+id/fab" />-->
+
+    <!--<com.inbm.inbmstarter.ViewEX.TextViewEX--><!--android:id="@+id/text2"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="8dp"--><!--android:layout_marginEnd="8dp"--><!--android:text="text2"--><!--app:layout_constraintEnd_toStartOf="@+id/fab3"--><!--app:layout_constraintTop_toTopOf="@+id/fab3" />-->
+
+    <!--<com.inbm.inbmstarter.ViewEX.TextViewEX--><!--android:id="@+id/text3"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="8dp"--><!--android:layout_marginEnd="8dp"--><!--android:text="text3"--><!--app:layout_constraintEnd_toStartOf="@+id/fab2"--><!--app:layout_constraintTop_toTopOf="@+id/fab2" />--><!--</android.support.constraint.ConstraintLayout>-->

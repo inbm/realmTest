@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_live_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="live" />
+
+    <Button
+        android:id="@+id/btn_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="size" />
+
+
+    <Button
+        android:id="@+id/btn_transaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="transaction" />
+
+
+    <com.inbm.inbmstarter.RV4Flower
+        android:id="@+id/rv_flower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.inbm.inbmstarter.RV4Flower>
+
+
+
+</LinearLayout>
